@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <RubiMap msg="Rubi Henjaya"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import RubiMap from './components/RubiMap.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    RubiMap
   }
 }
 </script>
